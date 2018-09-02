@@ -1,0 +1,151 @@
+/*-------------------------------------
+		1.General css (Reset code)
+--------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    overflow-x: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+select, input, textarea, button {
+    box-shadow: none;
+    outline: 0 !important;
+}
+
+/*-------------------------
+       2. Header Area
+ -------------------------*/
+.header-menu {
+    display: block;
+    width: 100%;
+    position: relative;
+    background: #FFFFFF;
+    border: 0 solid #E1E2E5;
+    border-bottom-width: 1px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.header-menu .header-navbar {
+    text-align: center;
+    position: relative;
+}
+
+.header-navbar .logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 22px;
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+.header-navbar .payment-action {
+    float: right;
+    padding-right: 30px;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.payment-action .instamojo {
+    height: 60px;
+    padding: 10px 5px;
+    line-height: 40px;
+}
+
+.backgroud-img {
+    background: url(img/background-3.jpg) no-repeat center;
+    background-size: 100% 420px;
+    height: 420px
+}
+
+.blue-background {
+    background: #008ccf
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.ask-section {
+    background: #ececec no-repeat center center;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.ask-w-section {
+    background: rgba(255, 255, 255, 0) no-repeat center center;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.section-header {
+    color: #264174;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.buy-now {
+    color: #fff;
+    width: 75%;
+    font-size: 18px;
+    background-color: #e8ac00;
+    border-color: #805200;
+    font-weight: bold;
+}
+
+.section-header-bottom {
+    border-bottom: 2px solid #008ace !important;
+    display: block;
+    left: 45%;
+    max-width: 100%;
+    position: absolute;
+    width: 10%;
+    padding-bottom: 40px;
+}
+
+.paragraph {
+    padding-top: 5px;
+    line-height: 25px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.list-style {
+    padding-left: 40px;
+    list-style-image: url(img/list-style.png);
+}
